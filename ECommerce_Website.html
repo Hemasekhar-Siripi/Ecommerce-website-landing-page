@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Landing Page</title>
+    <link rel="stylesheet" href="E_styles.css">
+</head>
+<body>
+    <header>
+        <h1><b>E-commerce Store</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#"><b>Home</b></a></li>
+                <li><a href="#"><b>Product</b></a></li>
+                <li><a href="#"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8NueOmkboWuX5r8IiTa4OioSe8WXA0lLbjhpbAnSxCkpRREy_1J294oy6XfE5ArwJmnY&usqp=CAU" alt="Product Image">
+            <h2>Product Name: Laptop</h2>
+            <p>Company: Dell <br>Generation: i7</p>
+            <p>Price: <span>&#8377;</span> 79999.00</p>
+            <p>12th Gen Intel® Core™ i5-1250P, vPro® Enterprise</p>
+            <p><b>Storage and memory to spare</b></p>
+
+            <p></p>With up to 64GB DDR4 memory and up to 2TB SSD storage <br>up to 4TB with dual SSD, no project is too big.</p>
+            <marquee>Long battery life with ExpressCharge that provides <br>up to 80% charge within 40 minutes.</marquee>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNC4wmmEUMaattdwtgoSvTXa5d8JG4ROR-8x03yAqvsTLSKFMGf2YUEOalEeZDBkjVYww&usqp=CAU" alt="Product Image">
+            <h2>Product Name: Smartphone</h2>
+            <p>Brand: Samsung <br>Model: Galaxy S20</p>
+            <p>Price: <span>&#8377;</span> 30099.00 </p>
+            <p>Best budget-friendly smartphones in India </p>
+            <marquee>Features like multi-camera, impressive design, soft touch, <br>brilliant performance, powerful processors, <br>long-lasting battery life and many more features</marquee>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My E-commerce Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
